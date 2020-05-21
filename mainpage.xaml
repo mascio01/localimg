@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="mascella.nicolo._5g.localimg.MainPage">
+    <TabbedPage.Children>
+        <ContentPage Title="SIMPSON" IconImageSource="homericon.png">
+            <StackLayout>
+                <!-- Place new controls here -->
+                
+                <Label Text="Welcome to Simpson page" FontSize="30"
+                   HorizontalOptions="Center"
+                   VerticalOptions="EndAndExpand" />
+                
+                <Grid HeightRequest="500" 
+                  Margin="5" WidthRequest="1100"
+                  VerticalOptions="EndAndExpand"
+                  HorizontalOptions="Center" >
+                    <Image Source="homer.png"></Image>
+                </Grid>
+            </StackLayout>
+        </ContentPage>
+        <ContentPage Title="MINION" IconImageSource="minionicon.png" >
+            <StackLayout>
+                <!-- Place new controls here -->
+
+                <Label Text="Welcome to Minion page" FontSize="30"
+                   HorizontalOptions="Center"
+                   VerticalOptions="EndAndExpand" />
+
+                <Grid HeightRequest="500" 
+                  Margin="5" WidthRequest="1100"
+                  VerticalOptions="EndAndExpand"
+                  HorizontalOptions="Center" >
+                    <Image Source="minion.png"></Image>
+                </Grid>
+            </StackLayout>
+        </ContentPage>
+    </TabbedPage.Children>
+
+</TabbedPage>
